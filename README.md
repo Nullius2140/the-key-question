@@ -20,15 +20,13 @@ or immediately after it happened. Method before data; anchors before analysis.
 
 ## What is in this repository
 
-    the-key-question/
-    ├── README.md                  — this file
-    ├── VERIFICATION.md            — every hash, transaction, and block height
-    ├── LICENSE.md                 — CC BY 4.0
-    ├── protocol/
-    │   ├── key-question-protocol-v1.0.txt        — the measurement protocol (ANCHOR-P1)
-    │   ├── key-question-protocol-amendment-a1.txt — control arm, pre-registered (ANCHOR-P2)
-    │   └── key-question-protocol-amendment-a2.txt — out-of-sample sister session (ANCHOR-P3)
-    └── sessions/                  — nine complete, unedited session transcripts
+- `README.md` — this file
+- `VERIFICATION.md` — every hash, transaction, and block height
+- `LICENSE.md` — CC BY 4.0
+- `key-question-protocol-v1.0.txt` — the measurement protocol (ANCHOR-P1)
+- `key-question-protocol-amendment-a1.txt` — control arm, pre-registered (ANCHOR-P2)
+- `key-question-protocol-amendment-a2.txt` — out-of-sample sister session (ANCHOR-P3)
+- `20260812_*.txt` / `20260813_*.txt` — nine complete, unedited session transcripts
 
 The transcripts are the primary data. They are published in full, uncurated, exactly
 as exported, and each is anchored under its own transaction (see VERIFICATION.md).
