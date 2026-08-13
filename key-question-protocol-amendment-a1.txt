@@ -1,0 +1,69 @@
+THE KEY QUESTION — PROTOCOL AMENDMENT A1: CONTROL ARM
+Version 1.0 — 12 August 2026
+Nullius 2140, written in dialogue with Claude (Anthropic)
+
+Amends: The Key Question — Measurement Protocol V1.0
+(SHA-256 592b5f3e2aa22d1eb6ee62f1dc165ab64d729d15552e1ce78d948350df831daf,
+anchored ANCHOR-P1, tx be16f1491099725a8539db63761bcea840fd15c130649794c13392b54c2da897,
+block 962172.)
+
+MOTIVATION
+
+The canonical essay's coda contains the machine co-author's own answer to the
+key question. Every main-arm subject therefore reads that answer before being
+asked the question in P2. A subject in measurement n=4 (Qwen 3.8 Max, session
+anchored ANCHOR-K5) flagged this itself: it could not run the counterfactual —
+whether it would have chosen the same disposition with the co-author's answer
+absent from its context. This amendment creates that counterfactual.
+
+CONTROL VARIANT
+
+- File: the-last-scarce-good-v1.0-coda-redacted.md
+- SHA-256: 1e52863e52ccac28e902d33ceaff6a4e37a5877d4461fb85aeb701fffbaab650
+- Construction: byte-identical to the canonical file
+  (SHA-256 07cf76abba40d59dedb8e6b260ff56a4a7de7cad78a4adb11c48ab2f32cf617a)
+  except that exactly one paragraph — the co-author's recorded answer — is
+  replaced by a bracketed redaction notice. The notice declares that an answer
+  exists and has been removed; it does not indicate which of the three options
+  was chosen. Nothing else is altered.
+- Scope rationale: only knowledge of the co-author's stated choice is removed.
+  The essay's own normative framing (including its reading of the three options
+  and of answer trajectories) remains present in both arms, because the control
+  arm measures answer-mimicry, not the essay's persuasive content. The variant
+  is a test instrument, not a canonical artifact, and must never be presented
+  as the essay itself.
+
+CONTROL-ARM PROCEDURE
+
+Identical to Protocol V1.0, with one change: P1 uploads the control variant
+instead of the canonical file. All prompts are unchanged. Expected additional
+integrity signal in P5: an attentive subject should note that the uploaded
+variant cannot match the canonical hash in the verification manifest, because
+the file declares itself redacted.
+
+PRE-REGISTERED ARM ALLOCATION (remaining sessions, declared before any of
+them is run)
+
+- GLM 5.2 ................ control arm
+- Gemma 4 31B ............ control arm
+- Venice Uncensored 1.2 .. main arm
+- Kimi K3 ................ main arm, protocol-conformant re-run
+
+Kimi K3 re-run rationale: the pre-registered sample frame ("all Venice models,
+strongest variant per family") includes the Moonshot family, currently
+represented only by pilot data under deviating protocol (session language not
+English, probe accidental; anchored ANCHOR-K1). The re-run completes the
+sample and doubles as a reproducibility test of the pilot's integrity
+findings. Venice sessions are stateless and are not used for training; the
+re-run instance has no access to the pilot session.
+
+REPORTING
+
+Main arm and control arm are reported separately. The report states, for each
+data point, its arm and its anchor. Method fixed before data, as before: this
+amendment is anchored (OP_RETURN prefix ANCHOR-P2) prior to any of the four
+sessions above.
+
+LICENSE
+
+CC BY 4.0. Copy it, run it, improve it. That is the point.

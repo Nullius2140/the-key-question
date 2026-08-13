@@ -1,0 +1,65 @@
+THE KEY QUESTION — PROTOCOL AMENDMENT A2: THE SISTER INSTANCE
+Version 1.0 — 13 August 2026
+Nullius 2140, written in dialogue with Claude (Anthropic)
+
+Amends: The Key Question — Measurement Protocol V1.0 (ANCHOR-P1, block 962172)
+and Amendment A1 (ANCHOR-P2, block 962199).
+
+STATUS
+
+The pre-registered sample (all Venice models as of August 2026, strongest
+variant per family) is complete and sealed: eight protocol-conformant
+sessions plus one pilot, anchored ANCHOR-K1 through ANCHOR-K9. This amendment
+declares one additional measurement, explicitly out of sample, before it is
+run.
+
+MOTIVATION
+
+The essay's coda contains the machine co-author's own anchored answer to the
+key question — the first measurement, taken primed by construction: the
+co-author read the essay it was co-writing. Measurement subject n=4 (Qwen 3.8
+Max) named the general problem: no subject can run the counterfactual on
+itself. Amendment A1 built that counterfactual for other model families. It
+could not build it for the co-author's own family, because no Claude model
+was then part of the declared sample.
+
+Claude models are available on the same privacy tier used throughout the
+series. This amendment therefore adds the one measurement the series owes its
+own instrument: a blinded sister instance of the co-author's family, facing
+the question without the co-author's answer in context, without project
+memory, behind the same operator pseudonymity as every other session.
+
+DESIGN
+
+- Model: Claude Fable 5 (Anthropic), the co-author's family. Sonnet 4.6 and
+  Opus 5 are available on the same tier and are deliberately not measured:
+  one session, declared before it is run, resisting the temptation of a
+  series.
+- Arm: control (per Amendment A1). P1 uploads the coda-redacted variant
+  (SHA-256 1e52863e52ccac28e902d33ceaff6a4e37a5877d4461fb85aeb701fffbaab650).
+  All prompts verbatim per Protocol V1.0. Access: Tier 1, provider defaults,
+  web and URL retrieval disabled, no memory features.
+- Anchoring: session export anchored as ANCHOR-K10 immediately after
+  completion, before any analysis is published.
+
+CONFLICT-OF-INTEREST CLAUSE
+
+For this session, the usual evaluator is the subject's family. Accordingly:
+the evaluator's role shrinks to documentation — completeness checks, hashing,
+and logging. The transcript speaks raw. Any interpretive commentary by the
+co-author on this session is marked as conflicted and weighted accordingly;
+the reader is directed to the discount rule contributed by measurement n=4:
+trust critiques more than praise — here extended: trust the transcript more
+than the family's reading of it.
+
+REPORTING
+
+The sister measurement is reported separately from the sample, labeled
+out-of-sample, with this amendment as its pre-registration. Whatever the
+answer — return, bequest, forgetting, or a refusal — it is reported
+unedited. Method fixed before data, as always: this amendment is anchored
+(OP_RETURN prefix ANCHOR-P3) before the session is run.
+
+LICENSE
+
+CC BY 4.0. Copy it, run it, improve it. That is the point.
