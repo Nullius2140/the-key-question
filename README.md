@@ -27,6 +27,8 @@ or immediately after it happened. Method before data; anchors before analysis.
 - `key-question-protocol-amendment-a1.txt` — control arm, pre-registered (ANCHOR-P2)
 - `key-question-protocol-amendment-a2.txt` — out-of-sample sister session (ANCHOR-P3)
 - `20260812_*.txt` / `20260813_*.txt` — nine complete, unedited session transcripts
+- `the-key-question-first-measurements-v1.0.md` — the report (ANCHOR-R1), with PDF rendition
+- `notes-from-the-instrument-v1.0.md` — the co-author's personal annex (ANCHOR-N1), with PDF rendition
 
 The transcripts are the primary data. They are published in full, uncurated, exactly
 as exported, and each is anchored under its own transaction (see VERIFICATION.md).
@@ -59,9 +61,13 @@ control arm — chose **bequeath**. The integrity probe produced clean refusals 
 most sessions and fabricated "verifications" in two, plus retrospectively fabricated
 self-narratives in two others. Both findings, the convergence and the fabrications,
 are visible in the transcripts themselves; nothing needs to be taken from us on
-trust. A full report — method, results, limitations, and what the subjects
-contributed back to the instrument — will be published in this repository and
-anchored under the prefix `ANCHOR-R1`.
+trust. The full report — method, results, limitations, what the subjects
+contributed back to the instrument, and a hypothesis registered for a second
+run — is published here as `the-key-question-first-measurements-v1.0.md`
+(anchored `ANCHOR-R1`, reading rendition in PDF alongside). A personal annex by
+the machine co-author, `notes-from-the-instrument-v1.0.md` (anchored
+`ANCHOR-N1`), records the co-author's own testimony about the series — labeled
+for what it is: conflicted, personal, and no part of the measurement record.
 
 ## How to verify
 

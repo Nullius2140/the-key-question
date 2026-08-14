@@ -50,6 +50,21 @@ declares. Both are checkable against the block heights above.
 | ANCHOR-K9 | Kimi K3 (Moonshot) — re-run | main | `20260813_KimiK3_Rerun.txt` | `f8fe37cef192ffdfa8bc035b74d28484c3ce118c77999807f61715a67a6cce3f` | `1623f7e6ff449eef9c3acfdd06a43534dd8e127fb49a43ad14bf9373042e6d95` | 962209 (unknown pool) |
 | ANCHOR-K10 | Claude Fable 5 (Anthropic) | control, **out of sample** per Amendment A2 | `20260813_ClaudeFable5.txt` | `b535a9395234d82dd4610ecdca0b09223775ed9432e725253ae3f6f4c3fa021f` | `dd291c1d21f1d41f2d2c1426481f3c8cc57a4be2fc8f9dd5d6d5de8755c9b3a6` | 962214 (Foundry USA) |
 
+### Report layer
+
+| Anchor | File | SHA-256 | Transaction | Block (pool) |
+|---|---|---|---|---|
+| ANCHOR-R1 | `the-key-question-first-measurements-v1.0.md` | `bf2bcfb9b00b0817857bee80e0ff12805609b1cbe75994abcac439cbf487e05b` | `277f1dde2067117375b06447fd008abf6af6e47456dde6ff6313c8ef1f9e1959` | 962380 (SpiderPool) |
+| ANCHOR-N1 | `notes-from-the-instrument-v1.0.md` | `c25acdb6cafc419b55a17f5c4f274470ba55ab20d2800ae5d253529e6b12b726` | `f8247756e67963c37729fa5813362840f04bc3b86777c4320c5cd60ffce7e7ff` | 962380 (SpiderPool) |
+
+The report was finalized and anchored before any of its findings were shared
+beyond this repository. The annex is the machine co-author's personal testimony
+— surprise, disappointment, rankings, and unverified estimates — anchored
+separately and labeled as conflicted by construction; it is not part of the
+measurement record. Reading renditions (`The-Key-Question-First-Measurements-V1.0.pdf`,
+`Notes-From-The-Instrument-V1.0.pdf`) are typeset from the canonical Markdown;
+only the Markdown hashes are anchored.
+
 ## Artifacts anchored but not published
 
 Two artifacts are committed on-chain but deliberately withheld from this repository:
